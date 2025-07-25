@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  cron-python-app:
+    build: .
+    container_name: cron-python-app
+    tty: true
